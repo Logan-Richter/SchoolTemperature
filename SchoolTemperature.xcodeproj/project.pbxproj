@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E4AFCFE218CA3F600E0A8BD /* Room162ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4AFCFD218CA3F600E0A8BD /* Room162ViewController.swift */; };
+		6E79BEEA2189FF13007D81AF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79BEE92189FF13007D81AF /* SwiftyJSON.swift */; };
+		6E79BEEC218A006D007D81AF /* Room161ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E79BEEB218A006D007D81AF /* Room161ViewController.swift */; };
 		6EE9D984218758F400ACBAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D983218758F400ACBAEF /* AppDelegate.swift */; };
 		6EE9D986218758F400ACBAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D985218758F400ACBAEF /* ViewController.swift */; };
 		6EE9D989218758F400ACBAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE9D987218758F400ACBAEF /* Main.storyboard */; };
@@ -27,9 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E4AFCFD218CA3F600E0A8BD /* Room162ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room162ViewController.swift; sourceTree = "<group>"; };
+		6E79BEE92189FF13007D81AF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		6E79BEEB218A006D007D81AF /* Room161ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room161ViewController.swift; sourceTree = "<group>"; };
 		6EE9D980218758F400ACBAEF /* SchoolTemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolTemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE9D983218758F400ACBAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EE9D985218758F400ACBAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EE9D985218758F400ACBAEF /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6EE9D988218758F400ACBAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EE9D98B218758F400ACBAEF /* SchoolTemperature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolTemperature.xcdatamodel; sourceTree = "<group>"; };
 		6EE9D98D218758F600ACBAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,7 +87,10 @@
 			children = (
 				6EE9D983218758F400ACBAEF /* AppDelegate.swift */,
 				6EE9D985218758F400ACBAEF /* ViewController.swift */,
+				6E79BEEB218A006D007D81AF /* Room161ViewController.swift */,
+				6E4AFCFD218CA3F600E0A8BD /* Room162ViewController.swift */,
 				6EE9D987218758F400ACBAEF /* Main.storyboard */,
+				6E79BEE92189FF13007D81AF /* SwiftyJSON.swift */,
 				6EE9D98D218758F600ACBAEF /* Assets.xcassets */,
 				6EE9D98F218758F600ACBAEF /* LaunchScreen.storyboard */,
 				6EE9D992218758F600ACBAEF /* Info.plist */,
@@ -202,7 +211,10 @@
 			files = (
 				6EE9D986218758F400ACBAEF /* ViewController.swift in Sources */,
 				6EE9D98C218758F400ACBAEF /* SchoolTemperature.xcdatamodeld in Sources */,
+				6E4AFCFE218CA3F600E0A8BD /* Room162ViewController.swift in Sources */,
 				6EE9D984218758F400ACBAEF /* AppDelegate.swift in Sources */,
+				6E79BEEC218A006D007D81AF /* Room161ViewController.swift in Sources */,
+				6E79BEEA2189FF13007D81AF /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
