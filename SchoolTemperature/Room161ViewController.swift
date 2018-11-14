@@ -10,12 +10,12 @@ import UIKit
 
 class Room161ViewController: UIViewController
 {
-    @IBOutlet weak var textField161: UITextField!
+    @IBOutlet weak var textView161: UITextView!
     var test = ""
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        textField161.text = test
+        textView161.text = test
 
     }
     
